@@ -4,86 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laundry Wallah</title>
+    <title>Task-2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <header>
-        <h1>Welcome to Laundry Wallah</h1>
-        <p>Hello, this is our laundry website where you can get your clothes cleaned easily.</p>
-
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAABgQFBwMBAgj/xABLEAACAQMCAwQGBAgLBwUAAAABAgMABBEFEgYhMRNBUXEUIjJhgZEjobHRBxUzQlJicsEWJDRDkpOistLh8SVEVGOEwvA1ZHOCg//EABoBAAIDAQEAAAAAAAAAAAAAAAADAgQFAQb/xAAsEQACAgEEAAUCBgMAAAAAAAAAAQIDEQQSITEFEyJBUTJhFBUjM5HwUoGx/9oADAMBAAIRAxEAPwDcaKKKACiivM0Ae0VF1C/ttOt/SLyZYo8gAt3nwA6k+4VQz8daTGwWJLuZj0CxbP75WuqLfSIynGPbGiiku545mQZh0xFH/uLsJ/dVqteGuJ7fXLad2j9Fmt3CyI7grzGQQ3LIPPuB5VJ1ySy0LhfXN7YvkvicUAg0s8U8TfisG1to91ywj+lYgJF2j7FbB9rHM4HcOtLkmvXWm6u9vHe3QMbAO91J2qSdPWKEcl59UIx4VFJsa5JGlUUp2PE+rSMxu9DjCL1NrdiQuO5k3KoI9xIPurrb8a6fJrEelXUNxaXMr7IxLsILEZCnax2kjpn3d5FcwGRnoqBdaxYWdytvc3cccrFQFb9Y4HzNTx0oOhRRRQAUUUUAFFFFABRRRQB4TikbjPjNLKdNP0ictOS3pE0MJm7LH5gIyA+fHOAOnMU7ToJImQkgMCMjrzrF+KeHZdHv7fTtNuNSvkWDc8cMagKM4QHAHcG8/dU63BP1vAi/zNv6ayys1HV5pbztry51CeRhhdxPLx6n1c/qqMfbXzT7s4htIlPVpPWb4k/dVrbcOXgTtb17bT1bmFu7gl/kDj66kJw6r+tFqulkjvEZP76f+O0sONxS/L9ZZiTh/IqvcwqiLPqcrA9Eh+8DNeRSRylhbQzy+JlwBnuyTz+WaOKbJ9LvLdTcQXJkDMHjZjjpyIPn1z3VVNdMSkouZAwHskHPlypNmsb/AG+UbGg8HqlDdflP4WBpn1K9eztI7iaJhawGAZi9pOu0nqQO7wqVZ8UXE3ZW2oJBdRqQIyfWdB78cx7jz94NJEs8kwyzSOO4uSFFc4DJHKssDOJAQQ4BGP8AKq0JzT5Zs36TTzjiuGDZ9MsEs9Nm1PQ9RuI4ezZzazOJYwwGcc+nwr4/FOrPdC8vTE83apNv7RQNyj1RtCHlyxyNZ7ZanfXMMiN2a7fVdUVlXGOpG4AVsV7tttNd0z7OSWYnPL31bSUlk8zdvqmovvJRrNqWt3Ftq11azqZY0ZBAYDsXO4AB88wT1J9/KtA0G7mvbIvcjEscrxsdu3ODyJGTg4686UdBEp0TTtsgD9hGQdnL2R1FNHDO42dyX27vS5c7entYrK0uqndNxl7FyUFFcFxRRRV8gFFFFABRRRQAUUUUAQdanurbTJ5rCDt7hFyiYznxOO/Aycd/Ss4u9Xve2ab0O6kuJ8Qma6DRqMBiFACgLj1vfWqkZpG4jhj1PiGe1u1SaKCJDHHMu9EbqTtzjJ3Dn4ClWUedxknC/wAn1YKOOZ7Re0nu9Gty3PIhJI8ySCag3Or6Tcblk4g0hmTqjwIR/eq9k0y2srWaWC1slKIThbRRnl41ZyX+n6To0FzqMzwWyRQpmJX6sq45IMnJJ7qrvw7b3IbHxBT6iZPxTc6ZfR2bWOo6XJeRF1YROirKD0z0wVA6nHU0pnUYwoxNCGI/SGfif3VuY434UHIandf1Nz/hoPHPCqjJ1W6GB3wXH+GrEKNqwOh4hOCwkYR6bGeZvRnw7QYo/GEIP5ePPju3H6zX6L1FryOZDZyXDQtGCNkLSc+fPdvHu5VxGsQRtFaubma7CAzKrMhQ4BOVydvUdTgZHOpbET/Mp/4mDaZcWWyQ3N+gOT6hlABPdWwaxxDpEmhyrHqVoX7PGO2Xrjzq3upb6SbfYSz9gyDavozuVbmGBbtBkgjpj4nNfepSSWUcbzvIkZcqzEMzNyJGFXOOg606MsLBlXQ82e5/OSj0bX9Ph0ewT0iHcsEe4NIPAeGabOFtY017KXbfW2ZLuYqpmUMcue7NVmn6hpl3PBZu05upshd0UiqxAJxkgDoDVrfaZFb2kszQKyIMur4YMv5wI8s1Ro0qpk5Z7HynngYga9qr4advxUsEhJe1kktyT1IRioPxUA/GrSrZAKKKKACiiigAooooADSPfnZxdeLIGVpAGQEEb02ICQeh5ginilDitzHxDpx/5Dqfi61Ov6hV/wBDI2pkDTrok4HZNz+FQdfjgv8AhqK3We2aR47V1jaZRu2n1up5cqn3/wDIpv2CKj2HC2h3NulxcWCO8hZmIAySSedOmirW8ZEttGI5ehWR/wCtiH/dVbqmgXzqTZ2lthgVZUv4fnzatOfhHh7ommRjzUfdXz/BLQB102DA581FczkkntZ5K9pcRWpkm0oskCK3bvvIYd3I4xS3d6TfWOsvqXDusaRG91AsVxHJJhU2gAFep5YyPM9an3VpwnHJJFa6THezR8nEKDZGfBnJCqfcTXIaPHIA1vwppwXuDyOT/ZQj66htivcapzfsWq2mn+ozXOiyPsAd5U3HOScA7vZGcD51a3UmmXdqsMl7bqBjBSVRgjwzSuum2ETMdR4NCooy0tuhlAHlyb6qtLDQeFdQtxPZ6dYTRnvVM4PvrmxfIeZJdokW1jpMF9b3Y1MO9uxZAZkxkqVOce5jVvc6raT20kLX9sQylT9KvPIqqj4V4fDr/sez6j+bq1uuHdDgtJ5I9IsAVjZgfR1PMDyqLikTjNyPrhWdZxqbRyLInpakMjAjJhiJ5j3k1e1TcIxRw6FCsUaRr2kp2ooA/KN3Vc1EaFFFFABRRRQAUUUUAFJPG7bdWtWH5sH/AHZ/dTtSLxyf9rQjuEK5+b/dU6/qQq79tn3dsGsXYHqoqz04bLKALywgqhimEulYPtKAp+dMFp/JYf2B9lPkinWzy+vILG1mvL2ZYreJd8sjnAApPtrrUeL7oKe1s9MzlYFyjyr4ysOYH6gwT3kc6jcc3j6nr1tokGGhtlWe4jPR5WP0Sn3DBY/A0zKPxJp1tZWWw3942EaQdMDLOw78Du8SB0pb6HLHbOyrpOhLDbhA04GYYIo97geKoo9VffgDxNVGvceporhbnRb71gGXc8YJBzjox/RNNmg6baWcEjAb5XbMssp3PIfFj3n/AEGBWc/hZSKa7t0j5FiMYHukx8Otc2rnJNWttY6ZZw/hO0hbpYNStbyyVghWcqJIjuUMOanI5Ed1XV7p8d4Pxvw9NCt6w3CRG+iuhj2ZMfLd1HvHKsI1G47K+t4HwyNZwB0bn/NgH6sU3fg24il0nU5tKnmZrUAONzdYzyJ81yOf6OR3CubfdDJY9zVdLv01G0WdEeN8lZInGGjcHmpHiKt7iQS6ZckdexcH5GlycDTuJo3UYg1NCJPATRgYPmVP9irlMkNGSQsi7G+PKuvlZEr0ywduGBjQ7b37j82NWtVnDP8A6FZnxjz8yas6UWgooooAKKKKAA8qouKdebQ4Ld44opXml2bZJQmPVJz7+lXhOBSLeWjT65rEwZSyTIoB3cwI0OMg9OZqUY5YuyeyORosdWil0SHVLsxW0TQiWXMgKx8uY3Ul8U6lZ6lqyyWNxHPGsMasYzkA5l5fKvby5MK3+lwxKi39qN3ascR+2C2MjLez3j2evIVU3GnT2Vv6R9CFXZujDHLLkqGzuP6XTHd1qcI4lkVZYpQ49zvBKVBjzgOVH1inS2H8WiHT1B9lZ8867QxyNrqf7QrQ4PyMf7A+ynWFWnozzSFF3x5q8sgyTet8kSOMfUTUD8KuoXqcV2qWc4ja2swVjfO1yzEny9lfl1FTrVjpv4RtVgYHEkqzx+9XQH+/GR8agfhog9Gv9O1YKWguIewLDuZSWX5hj/RpL7Rch7on8Ace/je5bTNVXsLrOImZvax+a3v8D39/Pmafi/UxqeuO8B3RxkRREdGPRcfEsfJhWbtdCW+EsIO+RlP/ANh35pk1O9S2tTMp9cqShz3nlu+sj/Sp7m1hkFTGM9yKW/f03iOVbYF1DLDGBzyFAUfZVrYkx8Z6YhHt7onXxBVgQa7cK6RJpyDVtQTbcyL/ABOFhz5jnIw7gAc186M66vxq93ZDfbWMeIiOW842L/SYk0DJPhmw6nK0ul8N3TndKLmI5PeTE4P20zRbAfWBzkbaUOJJo7G94f01PpGtT2pQHG8hdij47ifJTXdOJJLaQx3KdszesjbTEq+IPI+7H11XldXXhSfZ2NNljzFdF9p2qJp3DulDsmmmlhXbGhAOMZJye4cviRXzLxUYmy9gVTGSGnXfjvwoyPrpU3XlmtvKDE6ejxwgA7gSBjIYgEDvx08812m0uKeRbmSZ7jax3LLgI3wAHLPjWZbrZb/S+DVr0q2+rsd9T1u10544pA8s8hGIosFgM4yc9BU+CaO4hjmhbdHIoZT4g1lC3lvDZq0ckvpBjxM8uWcSAEMWJ6kEA4/VxTXwVxB2uk6fFfQm2EsQEMrsfpDnowx6rHkQMnNac3GKWX2ZlblNvC6HCivBRQTImr3Mllpd1dRIHeGJnCnocDvx3Vntlq2pdreXM9tb35uJA2+ynUDkoXo2PDxrSLuMzWs0QOC6MvzFY4ltBdKs0ugo7hVzJby4bOB47aRdbKrEojqqIXpxkT49R1H+FqX0uj30diLEwna6Md+7PshvDvqZrV3NqOmTW1jpl81w5XaezRcYYE8y1U/o1qBzsdZi9yyfcxr6jihGVSy1qQd4aT73FJWus5X9/wCjX4dVlPnj+/BAu4dUsWt49RWOMzvjsWkVpFA57sKOnIDn41q9sm/s0zjIH2Vlt/6L+MYIrLS1sVijO8lw0krF05tjl3HvNaiOg8q0KnKVSbZmXxjG5pLAl/hP0e4Qwa/pId7jTgRMiYLSQkg5HiUIyPjXSym0jjzhSSwldTBN7LIcm3lHMDzB5jPUHzpw76QtW4GutO1SXW+C7iO0uJf5RYSj6CcfD2T/AODFSaOJmbavwlJwvdhNajcKG+iuf5mUeIYdD+q2D519SatYWIgkiS0eRFBEjtvx5L0HyrWrHimSOD0biPTZbdiMOrDtUPxA6ftAVwaz/BzdEyyWWibzzJ2qp+IBxRmSJqUZe5kVxreoa/2mn6JBI8kw/jV27es6+GTyRPtrSOAeHbXhrS/xlfMq28P0xmb1e3cA+sB+gvd49fO2a/4Uswq6Vp8V2yexFaxZQH4eqD7z86g6lcXmpTLPq22KKP147fPqrjnuY9/l0HvPOpRi5C52JIVLvUdR1biq8uWnkt5lKtEiou5MbezU5Bx1yf2jU2PimWw1cPeu14ssOWMcewDuHLOCOR8vjVLFK8iarrZUokzBISeRO4hc/BcVKu9PRNRjaVco1uvZ55dCcj4ZFZM9tt7i3lc4PRup0aSMkueM/wCxmi4v0YsWksrhBj1QIc/Dlyrn/DPS0k2pZXax5zjBxnypf9HTOd0ufdK3311tdOa6lEULS5P/ADXwPrqb0FX3KP4qwuJZNN127klt9Jurl2IeSMShRkfnbd45/vqy02LV7Z7V7vTZIrBZlN0sjKpcbhtwenXBwOZxjHOvjT9FtrH1ke4MhGGbt3GfdjPSrbhjT7SbiaFvR4me33yh2XJUhAvU/wDy/VU40QTXbx8kJWyw/uaIPfXle4oqyVwrNtOiIEsaKTtbGB+qMH7DTrxFrUOh2BuZV3sx2xpnG4/dSDod015DLcNt3PLITs6flH6VT1n0FzRZ3lk3I8unlUuyUG0vnbGREAPiah+Vd7eVYY5WZgeQ+jIyH8/LrWdBrdyaVie0TrxgddudxHq9kvzc/dTxNxPo8OA12GcnHZxozNnw5DrWWateZ1m8IeMOHXYr5BbA3DHjzPSp1mTNBI0TC6SXnPDMAvPHdy9Xl3Hzz3nVlqFRRDHZlVaN6vVzcvpHtOMNOaXY8N3Gv6ZRWA+CsW+qr22uYLqIS280UsbcwyNuBHwrI7doYW7PsVUA4aGcdmT4MnLGfHHXryruZihaWytJzdggpLhvUOeRLHmfhmkw8Qkn6kW7fB4Nfpy5+5qs0EM4xPGsg/WGahvoemu2WtEJ9+ar9N4qtpz2WoRNZ3GzfjO9WHQ4I55GRyI767z8T6bEPUaaU+Cwt9uK1IS3xUovgwLanVLbNYaLCKzs7QbooYowozuI6Uq65cR6lPIGUNCVKAEdV7/nmvjUeImvnEKrKqnJEUcTsSB44HTmKhSemNbSvaWF3JKEJRTbtgnupscLtiJKUsbUK/FVg9tZ2qR3MzWwkP0cmGAOCRz5Hx6mq+1vLhpIUu7gyRRklQQAFJGPPp76YeJInj0N11Ob0e43B4kmt2j7TbzIBJx7O6lEBCMqBg94qrOutS9KNSnUXuvZZJjHTRpMENnbDdInbOMudw5e6kvQWiN5Esssxw45B2G0eeaezYRk/lLkYP8AxEn31CTJIkJIkn5Ng58FOfspk4RgCzTSY5rCinlghmLOc/Bk+VLAgxAYEln2HkA07soJ78E1dcKa9p0d9d6eIhA0l5II3UAI+DsHTocKPOuLCCWWOlFeZoqYsquI9CtdfsPRbrIKtujkXqjVnN1wVrmks5sJrloyf93k3D+gfurXKKjKKl2TjNx6MPlfXLU7ZtRnjPhLbp/hqFOup3AYTatOyt1C4UfICt7ZFcYdQw8CM1Cn0bTJ8mWwtmPj2YFK8iPwv4G/iH7mBLb3Fq++GJnILZzyLZGCfOpEF7tfffQz20g5LMseQ48GA+2tpk4U0STrYKP2XYfYajtwVopJIglHlM1Qs06n2Pp1rq4XRk665bbikU1wFYdY4y+D8Qfrr1b5XVX7O6kuF5pJ6OYz5MDgGtUPA+j93pI8pf8AKvn+A2k/pXX9aPupS0MB78VmzJ2tzqFx2+oWq7VTbGkmCc55nA6dw6npXraRYFSBaxA467elawOBtHH/ABJ//X/KvteCdGXrHM3nMf3VYhW4LbHopzvjZJyl2zIINJS2uFnhEYIBXbhkyDjvRge7xqaV2fk4bgHIJVNUnCt4gg5I5Z6GtYThDQ1/3PPnK5/fXZOGdFT2dOh+OTTEpCnKHwYilperqqXcm64gXkttc3bTbV5ctzDnzyefjUObSLtpZHQ2qK7lggYgLk5wOXdX6ATQtJT2dNtf6sVITTrFPZsrceUS/dXcSObo/B+erS01G33KkFu5J6ib/KmizvtfkgRE0XtpAMFhIxB+S1siwxIMJGi+SgV94FGG+zm5exlMOm8Y3gKx6baWmRykldjj4HFMXDXBPoEkE+pTrM8WCqJ03DvJPXnzp0oxRtOb37Hg86K9oqREKKKKACiiigDyiiig4e0UUUHQooooAKKKKACiiigAooooAKKKKACiiigD/9k=" alt="Laundry Image" width="200">
+    <header id="headSel">
+        <h1 class="head">This is h1 heading with head as a class</h1><br>
+        <h2 class="head" id="bglime">This is h2 heading with "<span class="red">head</span>" as a class and "bglime" as an id</h2><br>
+        <h3 class="head">This is h3 heading with head as a class</h3><br>
     </header>
 
     <main>
+        <p>This is a p paragraph tag without any id or class styled using "p" element selector</p>
+        <p id="para">This is a p paragraph tag with para as an id</p>
+        <p>This is a p <span class="small">paragraph</span> tag without any id or class styled using "p" element selector</p>
 
-        <h2>Our Services</h2>
+        <h4>Show this output without inline CSS nor using class or id for "a" tag</h4>
         <ul>
-            <li>Washing and Drying</li>
-            <li>Iron and Folding</li>
-            <li>Dry Cleaning</li>
-            <li>Stain Removal</li>
-            <li>Express Services</li>
-            <li>Special Garment Care</li>
-            <li>And more...</li>
+            <li>Click <a href="" target="_blank"><span id="yellowbglink">here </span></a>to go to UpSkillMedia</li>
+            <li>Click <a href="" target="_blank"><span id="bluebglink">here </span></a>to go to Google</li>
         </ul>
-
-        <h2>Price List</h2>
-
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Service</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>Washing and Drying</td>
-                    <td>$10.00</td>
-                </tr>
-
-                <tr>
-                    <td>Iron and Folding</td>
-                    <td>$5.00</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <h2>Book Now</h2>
-
-        <form>
-
-            <label for="user_name">Name:</label>
-            <input type="text" id="user_name" name="name" required>
-
-            <br><br>
-
-            <label for="user_email">Email:</label>
-            <input type="email" id="user_email" name="email" required>
-
-            <br><br>
-
-            <label for="user_phone">Phone:</label>
-            <input type="tel" id="user_phone" name="phone" placeholder="+91xxxxxxxxxx" required>
-
-            <br><br>
-
-            <button type="submit">Submit</button>
-
-        </form>
-
+        <ol>
+            <li>This is li tag without any id or class</li>
+            <li>This is li tag without and id or class and is in blue colour</li>
+            <li>This is li tag without and id or class and is in red colour</li>
+            <li>This is li tag without and id or class</li>
+            <li>This is li tag without and id or class</li>
+        </ol>
     </main>
-
-    <footer>
-        <p>
-            Contact us at:
-            <a href="mailto:info@laundrymart.com">info@laundrymart.com</a>
-        </p>
-    </footer>
-
 </body>
 
 </html>
