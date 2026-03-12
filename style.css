@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(241, 133, 56);
+}
+
+/* header css */
+.head{
+    color: blue;
+}
+
+#bglime{
+    background-color: lime;
+}
+
+.red{
+    color: red;
+}
+
+#headSel h1{
+    font-size: 20px;
+}
+
+#headSel h3{
+    font-size: 15px;
+}
+
+/* main css */
+p{
+    color: white;
+    font-size: large;
+}
+
+.small{
+    font-size: 22px;
+    color: black;
+}
+
+#para{
+    font-size: 15px;
+    color: green;
+}
+
+ul{
+    color: white;
+}
+
+#yellowbglink{
+    background-color: yellow;
+}
+
+#bluebglink{
+    background-color: rgb(67, 67, 247);
+}
+
+ol li:nth-child(2){
+    color: blue;
+}
+
+ol li:nth-child(3){
+    color: red;
+}
